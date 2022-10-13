@@ -17,7 +17,7 @@ nav {
 }
 
 .playstation-logo {
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 ul {
@@ -31,6 +31,143 @@ li {
     margin-left: 25px;
 }
 
+.nav-left {
+    padding-left: 0;
+}
+
 .nav-right {
-    margin-right: 15px;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    height: 750px;
+    background-image: url('../img/jumbo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.jumbotron .container {
+    height: 750px;
+    position: relative;
+    
+}
+
+.banner-container {
+    height: 45%;
+    width: 25%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    color: white;
+}
+
+.banner {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-btn {
+    border-radius: 100px;
+    background-color: #CD3D0F;
+    color: white;
+    padding: 10px 15px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+.img-preview {
+    height: 110px;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+/* .preview-1 {
+    background-color: black;
+    height: 125px;
+    border-radius: 25px;
+}
+
+.preview-2 {
+    background-color: green;
+    height: 125px;
+    border-radius: 25px;
+} */
+
+.preview-img {
+    height: 100%;
+    border-radius: 25px;
+}
+
+.ps5-introduction {
+    height: 200px;
+   /*  background-color: red; */
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.ps5-introduction h6 {
+    color: #40a0ef;
+}
+
+.ps5-introduction h1 {
+    margin-bottom: 40px;
+}
+
+.gray {
+    color: rgb(142, 141, 141);
+}
+
+.console {
+    height: 600px;
+    /* background-color: red; */
+}
+
+.console-img {
+    width: 100%;
+}
+
+.console-btn {
+    border-radius: 100px;
+    background-color: #2D64E6;
+    color: white;
+    padding: 10px 15px;
+}
+
+.console h4 {
+    margin-bottom: 40px;
+}
+
+.console-items {
+    display: flex;
+}
+
+.item-preview {
+    width: calc(100% / 5);
+    background-color: red;
+    height: 250px;
+}
+
+.item-container {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: green;
+    margin-bottom: 25px;
+}
+
+.item {
+    height: 100%;
+    background-color: yellow;
+}
+
+.item-name {
+    background-color: magenta;
+    text-align: center;
 }
