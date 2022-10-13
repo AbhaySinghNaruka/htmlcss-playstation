@@ -11,9 +11,11 @@ header {
 
 nav {
     height: 75px;
-    background-color: gray;
+    /* background-color: gray; */
+    color: black;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .playstation-logo {
@@ -55,7 +57,6 @@ li {
 
 .banner-container {
     height: 45%;
-    width: 25%;
     /* background-color: red; */
     position: absolute;
     bottom: 0;
@@ -84,21 +85,9 @@ a {
 
 .img-preview {
     height: 110px;
-    background-color: red;
+    /* background-color: red; */
     margin-bottom: 100px;
 }
-
-/* .preview-1 {
-    background-color: black;
-    height: 125px;
-    border-radius: 25px;
-}
-
-.preview-2 {
-    background-color: green;
-    height: 125px;
-    border-radius: 25px;
-} */
 
 .preview-img {
     height: 100%;
@@ -127,6 +116,7 @@ a {
 .console {
     height: 600px;
     /* background-color: red; */
+    margin-bottom: 100px;
 }
 
 .console-img {
@@ -150,24 +140,55 @@ a {
 
 .item-preview {
     width: calc(100% / 5);
-    background-color: red;
     height: 250px;
 }
 
 .item-container {
     width: 60%;
-    height: 60%;
     margin: 0 auto;
-    background-color: green;
     margin-bottom: 25px;
 }
 
-.item {
-    height: 100%;
-    background-color: yellow;
+.item-name {
+    text-align: center;
 }
 
-.item-name {
-    background-color: magenta;
+.it-takes-two {
+    height: 750px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.it-takes-two .container {
+    position: relative;
+    height: 100%;
+}
+
+.it-takes-two .banner-container {
+    height: 55%;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    color: white;
+}
+
+.new-releases {
+    background-color: #1F1F1F;
+    height: 750px;
+}
+
+.new-release-container {
+    color: white;
+}
+
+.new-game {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.new-release-container p {
+    font-size: 20px;
     text-align: center;
+    margin-top: 15px;
 }
