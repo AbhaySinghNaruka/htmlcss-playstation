@@ -1,0 +1,36 @@
+header {
+    background-color: black;
+    height: 40px;
+}
+
+.sony-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+nav {
+    height: 75px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.playstation-logo {
+    margin-left: 5px;
+}
+
+ul {
+    margin: auto;
+    margin-left: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+}
+
+.nav-right {
+    margin-right: 15px;
+}
