@@ -83,8 +83,6 @@ a {
 }
 
 .img-preview {
-    height: 110px;
-    /* background-color: red; */
     margin-bottom: 100px;
 }
 
@@ -174,7 +172,7 @@ a {
 
 .new-releases {
     background-color: #1F1F1F;
-    height: 750px;
+    /* max-height: 750px; */
 }
 
 .new-release-container {
@@ -193,8 +191,6 @@ a {
 }
 
 .ps4-introduction {
-    height: 200px;
-   /*  background-color: red; */
     text-align: center;
     margin-bottom: 125px;
     margin-top: 50px;
@@ -229,14 +225,38 @@ a {
 }
 
 .playstation-plus {
-    height: 465px;
+    /* max-height: 465px; */
     background-color: lightgray;
+    margin-bottom: 100px;
 }
 
 .ps-plus-logo {
     width:100%
 }
 
-.play-plus-img {
+.playstation-plus .play-plus-img {
     width: 100%;
+}
+
+.ps-sales p {
+    font-size: 30px;
+}
+
+.ps-now {
+    background-color: #161C3B;
+}
+
+.ps-now p {
+    color: white;
+    margin-top: 25px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.ps-now-btn {
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
 }
